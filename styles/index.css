@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.avatar {
+  width: 400px;
+  height: 400px;
+}
+
+#main-photo {
+  width: 800px;
+  height: 400px;
+}
+
+h1 {
+  background-color: #6711f488;
+  bottom: 60px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  all: unset;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+}
+
+.experience h1 {
+  font-size: 12px;
+}
+
+.skill {
+  font-size: 8px;
+}
+
+.skill h1 {
+  font-size: 80px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.dimension {
+  background-color: burlywood;
+
+  box-sizing: border-box;
+  width: 100px;
+  /* height: ; */
+  padding: 20px;
+  border: 8px solid red;
+  margin: 20px;
+}
+
+button {
+  all: unset;
+  position: relative;
+  left: 0px;
+  width: 200px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background-color: #89f13a;
+  text-align: center;
+  transition: background-color 0.3s, left 0.3s ease-in-out;
+}
+
+button:hover {
+  left: 100px;
+  background-color: #5fdd2c;
+}
+
+input {
+  all: unset;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 8px;
+  caret-color: red;
+}
+
+input:focus {
+  background-color: #d2d2ba;
+}
+
+/* FLEX TRAINING SECTION */
+.annoying {
+  width: 500px;
+  height: 5000px;
+  background-color: burlywood;
+}
+
+.parent {
+  background-color: #70c1b3;
+  margin: 50px;
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+
+.children {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+#red {
+  background-color: red;
+  top: 50px;
+  left: 50px;
+}
+#yellow {
+  background-color: #ffe066;
+  top: 100px;
+  left: 100px;
+}
+#blue {
+  background-color: #247ba0;
+  top: 150px;
+  left: 150px;
+}
